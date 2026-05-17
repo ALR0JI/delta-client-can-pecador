@@ -1,0 +1,35 @@
+{
+  "name": "delta-client-can-pecador",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@delta/core": "file:../delta-engine/packages/core",
+    "@delta/ui": "file:../delta-engine/packages/ui",
+    "@delta/sections-hero": "file:../delta-engine/packages/sections/hero",
+    "@delta/sections-about": "file:../delta-engine/packages/sections/about",
+    "@delta/sections-menu": "file:../delta-engine/packages/sections/menu",
+    "@delta/sections-gallery": "file:../delta-engine/packages/sections/gallery",
+    "@delta/sections-contact": "file:../delta-engine/packages/sections/contact",
+    "@delta/themes-warm-mediterranean": "file:../delta-engine/packages/themes/warm-mediterranean",
+    "@delta/industries": "file:../delta-engine/packages/industries",
+    "next": "^15",
+    "react": "^19",
+    "react-dom": "^19",
+    "next-intl": "^3",
+    "tailwindcss": "^4"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5.6"
+  }
+}
